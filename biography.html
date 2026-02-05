@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Melchizideck Osorno</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="biography.css">
+</head>
+
+<body>
+
+    <!-- ===== NAVBAR ===== -->
+    <nav class="navbar navbar-expand-lg fixed-top bg-clear">
+        <div class="container">
+            <a class="navbar-brand me-auto" href="index.html">Melchizideck O.</a>
+            <button class="navbar-toggler pe-0" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">MelchiO-O</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-3" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active mx-lg-3" href="biography.html">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-3" href="register.html">Register</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+    </nav>
+
+    <!-- ===== HEADER ===== -->
+    <header class="page-header">
+        <h1 class="name-title">Melchizideck Osorno</h1>
+        <p class="role-title"> IT STUDENT </p>
+    </header>
+
+    <!-- ===== BIO CARD ===== -->
+    <div class="bio-wrapper">
+
+        <div class="left-card"></div>
+
+        <div class="bio-content">
+            <h1 class="hello-title">Hello ^^</h1>
+            <p class="subtitle">Here's who I am & what I do:</p>
+
+            <p>
+                I am a second year IT student from the
+                <strong>University of Mindanao</strong>.
+                <br>I am intrigued with technology, which is why I chose BSIT.
+                <br>I am currently studying HTML, CSS, and Database.
+            </p>
+
+            <p class="list-title">In my free time, I enjoy:</p>
+            <ul class="hobby-list">
+                <li>Reading eBooks</li>
+                <li>Playing video games</li>
+                <li>Listening to music</li>
+            </ul>
+
+            <div class="profile-pic">
+                <img src="newprof.png" alt="Profile Picture">
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== SKILLS ===== -->
+    <section class="section">
+        <h1 class="skills-title">Skills</h1>
+
+        <div class="skills-row">
+            <div class="skills-card">
+                <i class="fa-brands fa-java"></i>
+                <h2>Java</h2>
+                <p>Understanding variables, <br>conditions, and loops</p>
+            </div>
+
+            <div class="skills-card">
+                <i class="fa-brands fa-python"></i>
+                <h2>Python</h2>
+                <p>Understanding syntax, <br>conditions, and CRUD</p>
+            </div>
+
+            <div class="skills-card">
+                <i class="fa-brands fa-html5"></i>
+                <h2>HTML</h2>
+                <p>Basic web structure</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== PROJECTS ===== -->
+    <section class="section">
+        <h1 class="skills-title">Mini Projects</h1>
+
+        <div class="projects-container">
+            <div class="project-card">
+                <img src="portfolio.png" alt="About Me Page">
+                <div class="card-content">
+                    <h2>About Me Page</h2>
+                    <p>A simple portfolio introducing myself.</p>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="html.png" alt="HTML Exercise">
+                <div class="card-content">
+                    <h2>HTML Exercise</h2>
+                    <p>Simple webpage construction using HTML & CSS.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section class="section contact">
+        <p><strong>Contact me via:</strong></p>
+
+        <div class="contact-links">
+            <a href="https://github.com/MelchiO-O" target="_blank" class="social-links">
+                <i class="fa-brands fa-github"></i><span>MelchiO-O</span>
+            </a>
+
+            <a href="https://facebook.com/mlchzdck.dyeo" target="_blank" class="social-links">
+                <i class="fa-brands fa-facebook"></i><span>Melchizideck Osorno</span>
+            </a>
+
+            <a href="https://instagram.com/m.o_dyeo" target="_blank" class="social-links">
+                <i class="fa-brands fa-instagram"></i><span>m.o_dyeo</span>
+            </a>
+
+            <a href="mailto:melchizideckos@gmail.com" class="social-links">
+                <i class="fa-brands fa-google"></i><span>melchizideckos@gmail.com</span>
+            </a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        © 2026 Melchizideck Osorno
+    </footer>
+
+    <!-- Bootstrap JS -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+
+</html>

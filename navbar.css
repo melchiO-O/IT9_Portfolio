@@ -1,0 +1,71 @@
+
+.navbar{
+    background-color: azure;
+    height: 80px;
+    margin: 20px;
+    border-radius: 16px;
+    padding: 0.5rem;
+    background: rgba(246, 225, 181, 0.75);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+
+    box-shadow:
+      0 20px 45px rgba(0,0,0,0.15),
+      inset 0 0 0.5px rgba(255,255,255,0.6);
+}
+.navbar-brand{
+    font-weight: 500;
+    font-size: 24px;
+    transition: 0.3s color;
+}
+
+.register-button{
+background-color: #f6e1b5;
+color: black;
+font-size: 14px;
+padding: 8px 20px;
+border-radius: 10px;
+text-decoration: none;
+transition: 0.3s background-color;
+}
+
+.register-button:hover{
+    background-color: beige;
+}
+
+.navbar-toggler{
+    border: none;
+    font-size: 1.25rem;
+}
+
+.navbar-toggler:focus, .btn-close:focus{
+    box-shadow: none;
+    outline: none;
+}
+
+.nav-link{
+    color: #666777;
+    font-weight: 500;
+    position:relative;
+}
+
+.nav-link:hover, .nav-link.active{
+    color: #000;
+}
+
+.nav-link::before{
+    content:  "";
+    position: absolute;
+    bottom: 0;
+    transform: tranlasteX(-50%);
+    width: 0;
+    height: 2px;
+    background-color:black;
+    visibility: hidden;
+    transition: 0.3s ease-in-out;
+}
+
+.nav-link:hover::before{
+    width: 80%;
+    visibility: visible;
+}
